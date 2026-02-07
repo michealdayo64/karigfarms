@@ -222,7 +222,6 @@ a,
     top: 50%;
     z-index: 999;
     position: absolute;
-    background-color: red;
    margin: 0 auto;
 }
 
@@ -246,6 +245,8 @@ a,
 .about {
     background: #fff;
     padding-top: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .d_flex1 {
@@ -298,6 +299,65 @@ a,
     transition: ease-in all 0.5s;
 }
 
+.about_img .img1{
+    height: 400px;
+    width: 100%;
+}
+
+.about_img .img2{
+    height: 300px;
+    width: 290px;
+}
+
+.services {
+    background: #fff;
+    padding-top: 90px;
+}
+
+.services .titlepage {
+    padding-bottom: 20px;
+}
+
+.services_box {
+    margin-top: 30px;
+    box-shadow: 0 0 38px rgba(2, 3, 8, 0.14);
+    background:#fff;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.services_box figure {
+    margin: 0;
+}
+
+.services_box figure img {
+    border-radius: 5px 5px 0 0;
+    height: 300px;
+    width: 100%;
+}
+
+.services_box h3 {
+    color: #292928;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: bold;
+       padding-bottom: 20px;
+}
+
+.services_box_main .read_more {
+    margin: 0 auto; 
+    display: block;
+}
+
+.veget {
+    padding: 40px;
+    border-radius: 5px 5px 0 0;
+    margin-top: -5px;
+    position: relative;
+    z-index: 99999;
+    background: #fff;
+}
+
 /*------- media --------*/
 @media (max-width: 900px){
     .navbar-area,
@@ -324,4 +384,15 @@ a,
         padding: 40px 40px;
         border-radius: 30px;
     }
+
+
+}
+
+@media (max-width: 500px){
+     .about {
+    background: #fff;
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 }
