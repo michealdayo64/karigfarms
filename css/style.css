@@ -132,14 +132,12 @@ a,
 /*-- header --*/
 
 .header-area {
-    border-top: #6b7908 solid 15px;
+    
     width: 100%;
-    
-    
     height: 85px;
     background: transparent;
-    line-height: 68px;
-    border-bottom: #6b7908 solid 3px;
+    
+    border-bottom: darkgreen solid 3px;
 }
 
 .logo a {
@@ -149,7 +147,12 @@ a,
     text-transform: uppercase;
 }
 .logo a span {
-    color: #6b7908;  
+    color: darkgreen;  
+}
+
+.logo a img{
+    height: 100px;
+    width: 200px;
 }
 
 .navbar-area {
@@ -206,23 +209,39 @@ a,
     display: none;
 }
 
-#banner1 .carousel-item img {
-    width: 100%; 
-    height: 90vh;
+.ban1{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../images/oil-palm-plantation.jpg") center/cover no-repeat;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.banner-content{
+    width: 900px;
+    margin: 0 auto;
     
 }
 
-.carousel-item {
-    height: 100%;
-    width: 100%;
-    
+.banner-content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
 }
 
-.carousel-caption {
-    top: 50%;
-    z-index: 999;
-    position: absolute;
-   margin: 0 auto;
+.banner-content h2{
+    color: yellowgreen;
+    font-size: 50px;
+}
+
+.banner-content p{
+    color: white;
+    
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .willom {
@@ -236,17 +255,18 @@ a,
     font-weight: bold;
     margin: 0 auto;
     text-align: center;
-    background: #6b7908;
+    background: darkgreen;
     display: inline-block;
     padding: 46px 46px;
     border-radius: 30px;
 }
 
 .about {
+    margin-top: 50px;
     background: #fff;
     padding-top: 90px;
-    padding-left: 80px;
-    padding-right: 80px;
+    background-color: darkgreen;
+    
 }
 
 .d_flex1 {
@@ -260,7 +280,7 @@ a,
 }
 
 .titlepage span  {
-    font-size: 24px;
+    font-size: 50px;
     color: #6b7908;
     line-height: 30px;
     font-weight: bold;
@@ -270,7 +290,7 @@ a,
 }
 .titlepage h2 {
     font-size: 50px;
-    color: #999998;
+    color: greenyellow;
     line-height: 50px;
     font-weight: bold;
     display: block;
@@ -279,6 +299,7 @@ a,
 
 .titlepage p {
     padding-top: 0px;
+    color: white;
 }
 
 .text_align_left {
@@ -312,6 +333,10 @@ a,
 .services {
     background: #fff;
     padding-top: 90px;
+}
+
+.services h2{
+    color: greenyellow;
 }
 
 .services .titlepage {
@@ -358,6 +383,289 @@ a,
     background: #fff;
 }
 
+.footer {
+    
+    padding-top: 70px;
+    background: darkgreen;
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: greenyellow;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.copyright a:hover {
+    color: #111111;
+}
+
+ul.social_icon {text-align: right;}
+ul.social_icon li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+ul.social_icon li a i {
+    font-size: 17px;
+    color: #fff;
+    transition: ease-in all 0.5s;
+    line-height: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+ul.social_icon li a i:hover {
+    color: #111111;
+    transition: ease-in all 0.5s;
+
+}
+
+
+
+.team h1{
+    text-align: center;
+    font-size: 50px;
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+.team p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team-container{
+    background-color: darkgreen;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.team1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 12px 30px rgba(2, 89, 25, 0.25);
+}
+
+  
+
+.team1 #name{
+    font-weight: bold;
+}
+
+.team1 #ceo{
+    color: darkgreen;
+}
+
+.team1 p{
+    text-align: center;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.team1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.contact {
+    background: #fff;
+    padding-top: 90px;
+}
+
+.main_form .form_control {
+    padding: 0 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 66px;
+    background: #fff;
+    color: #999998;
+    font-size: 18px;
+    font-weight: normal;
+    border: #6b7908 solid 3px;
+}
+
+.main_form .textarea {
+    margin-bottom: 40px;
+    width: 100%;
+    background: #fff;
+    color: #999998 !important;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 15px 20px 15px 20px;
+    border: #6b7908 solid 3px;
+    height: 179px;
+}
+
+.main_form .send_btn {
+    font-size: 20px;
+    transition: ease-in all 0.5s;
+    background-color: #323232;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 169px;
+    width: 100%;
+    display: block;
+    font-weight: 500;
+    height: 69px;
+    line-height: 69px;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+.group_btn {display: flex; justify-content: center;}
+
+.map-responsive {margin-top: 90px;}
+
+.main_form .send_btn:hover {
+    background-color: #6b7908;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+.text_align_center {
+    text-align: center;
+}
+
+ul.loca li {
+    color: #fff;
+padding-bottom: 10px;
+display: flex;
+font-size: 16px;
+flex-wrap: wrap;
+}
+ ul.loca li:last-child {
+    padding-right: 0;
+}
+ ul.loca li a {
+   padding-right: 16px;
+color: #fff;
+margin-top: 4px;
+}
+ 
+ ul.Links_footer {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     float: left;
+}
+ ul.Links_footer li a {
+    display: block;
+     color: #fff;
+     font-size: 17px;
+     padding-left: 16px;
+     margin-top: -34px;
+}
+
+.address  h3 {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    border-bottom: #3e7f21 solid 4px;
+    margin-bottom: 20px;
+    width: 200px;
+    
+    text-align: left;
+     }
+
+     ul.Links_footer {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        float: left;
+   }
+    ul.Links_footer li a {
+       display: block;
+        color: #fff;
+        font-size: 17px;
+        padding-left: 16px;
+        margin-top: -34px;
+   }
+    
+    ul.Links_footer li img {
+       padding-bottom: 15px;
+       color: white;
+   }
+
+     .address img {padding-bottom: 10px;}
+
+     .address{
+        text-align: center;
+     }
+
+ .address p {
+     color: #fff;
+     padding-bottom: 20px;
+     font-size: 18px;
+line-height: 30px;}
+
+.footer .address .form-control {
+    padding: 10px 15px;
+    border: #ddd solid 1px;
+    margin-bottom: 20px;
+    box-shadow: inherit;
+    border-radius: 10px;
+}
+
+.footer .newsletter h3 {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    display: block;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.form-control:focus, .form-control:hover {
+    border: #ddd solid 1px !important;
+}
+
+.address .foot-logo{
+    width: 200px;
+    height: 200px;
+}
+
+.footer .address .submit-btn {
+    padding: 8px 45px;
+ border: #30880d solid 1px;
+ background: #30880d;
+ color: #fff;
+ font-weight: 500;
+ font-size: 19px;
+ border-radius: 10px;
+ }
+
+ .footer .address .submit-btn:hover {
+    background: #fff;
+    border: #fff solid 1px;
+    color: #30880d;
+}
+
 /*------- media --------*/
 @media (max-width: 900px){
     .navbar-area,
@@ -372,27 +680,60 @@ a,
         align-items: center;
     }
 
-    .willom h1 {
-        font-size: 30px;
-        line-height: 40px;
-        color: #fff;
-        font-weight: bold;
-        margin: 0 auto;
-        text-align: center;
-        background: #6b7908;
-        display: inline-block;
-        padding: 40px 40px;
-        border-radius: 30px;
-    }
+    
 
+    .titlepage p{
+        color: black;
+    }
 
 }
 
+@media (max-width: 800px){
+    .banner-content{
+        padding-left: 20px;
+        width: 500px;
+        
+    }
+    .banner-content h1{
+        font-size: 50px;
+    }
+
+    .banner-content h2{
+        font-size: 30px;
+    }
+
+    
+  
+    
+}
+
 @media (max-width: 500px){
+    .banner-content p
+   {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+   }
+
+   .willom h1 {
+    
+    
+    
+    
+}
+}
+
+@media (max-width: 600px){
      .about {
-    background: #fff;
+    background: darkgreen;
     padding-top: 90px;
     padding-left: 10px;
     padding-right: 10px;
+    
+}
+
+.about p{
+    color: white;
 }
 }
